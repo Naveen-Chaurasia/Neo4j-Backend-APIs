@@ -9,7 +9,6 @@ import com.naveen.neo4jAccess.Entities.Products;
 
 //@Repository
 //public interface productRepo extends Neo4jRepository<Products,String >{
-//
 //}
 
 @RepositoryRestResource(collectionResourceRel = "products", path = "products")
