@@ -14,18 +14,18 @@ public class Level0 {
 
 	@Id @GeneratedValue 
 	private Long id;
-	private String CarbonEmission;
+	private Double CarbonEmission;
 	private String Energy;
 	private String ReuseByRecyclePercentage;
 	private String Toxicity;
-	private String Water;
+	private Double Water;
 	
 		
-	public String getCarbonEmission() {
+	public Double  getCarbonEmission() {
 		return CarbonEmission;
 	}
 
-	public void setCarbonEmission(String carbonEmission) {
+	public void setCarbonEmission(Double  carbonEmission) {
 		CarbonEmission = carbonEmission;
 	}
 
@@ -53,11 +53,11 @@ public class Level0 {
 		Toxicity = toxicity;
 	}
 
-	public String getWater() {
+	public Double getWater() {
 		return Water;
 	}
 
-	public void setWater(String water) {
+	public void setWater(Double water) {
 		Water = water;
 	}
 
