@@ -8,7 +8,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import com.naveen.neo4jAccess.Entities.Category;
 import com.naveen.neo4jAccess.Entities.Level0;
 
-@RepositoryRestResource(collectionResourceRel = "Level0", path = "Level0")
+@RepositoryRestResource(collectionResourceRel = "Level1", path = "Level0")
 public interface Level0Repo extends  PagingAndSortingRepository<Level0, Long> {
 	//Mono<Category> findByName(String name);
 
